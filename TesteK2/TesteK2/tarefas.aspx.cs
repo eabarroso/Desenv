@@ -105,16 +105,19 @@ namespace TesteK2
                                 tCell.Text = dataAux;
                                 break;
                             case 4:
-                                ImageButton btnImg = new ImageButton();
-                                btnImg.ImageUrl = "images\\editar.png";
-                                btnImg.Width = 20;
-                                btnImg.Height = 20;
-                                btnImg.ToolTip = "Alterar Tarefa";
-                                btnImg.ID = "btnImgA" + item.cod_tarefa.ToString();
-                                btnImg.CommandArgument = "A|" + item.cod_tarefa.ToString() + "|" + item.des_titulo + "|" + item.des_descricao + "|" + dataAux;
-                                btnImg.Click += new ImageClickEventHandler(ImageButton_Click);
-                                btnImg.CausesValidation = false;
-                                tCell.Controls.Add(btnImg);
+                                if (item.dat_execucao > DateTime.Now)
+                                {
+                                    ImageButton btnImg = new ImageButton();
+                                    btnImg.ImageUrl = "images\\editar.png";
+                                    btnImg.Width = 20;
+                                    btnImg.Height = 20;
+                                    btnImg.ToolTip = "Alterar Tarefa";
+                                    btnImg.ID = "btnImgA" + item.cod_tarefa.ToString();
+                                    btnImg.CommandArgument = "A|" + item.cod_tarefa.ToString() + "|" + item.des_titulo + "|" + item.des_descricao + "|" + dataAux;
+                                    btnImg.Click += new ImageClickEventHandler(ImageButton_Click);
+                                    btnImg.CausesValidation = false;
+                                    tCell.Controls.Add(btnImg);
+                                }
                                 break;
                             case 5:
                                 ImageButton btnImg2 = new ImageButton();
