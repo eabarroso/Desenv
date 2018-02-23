@@ -1,0 +1,25 @@
+﻿body 
+{
+}
+
+.textoPadrao {
+    font-family: 'Courier New' , Courier, monospace;
+    font-size: small;
+    color: #000000;
+}
+
+.botaoPadrao {
+    font-family: 'Courier New' , Courier, monospace;
+    font-size: small;
+    color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #C0C0C0;
+}
+
+.campoPadrao {
+    font-family: 'Courier New' , Courier, monospace;
+    font-size: small;
+    color: #000000;
+    border: 1px solid #808080;
+}
