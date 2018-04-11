@@ -1,0 +1,6 @@
+C:\Users\VM\source\repos\PeoplePro\PeoplePro\bin\Debug\PeoplePro.exe.config
+C:\Users\VM\source\repos\PeoplePro\PeoplePro\bin\Debug\PeoplePro.exe
+C:\Users\VM\source\repos\PeoplePro\PeoplePro\bin\Debug\PeoplePro.pdb
+C:\Users\VM\source\repos\PeoplePro\PeoplePro\obj\Debug\PeoplePro.csproj.CoreCompileInputs.cache
+C:\Users\VM\source\repos\PeoplePro\PeoplePro\obj\Debug\PeoplePro.exe
+C:\Users\VM\source\repos\PeoplePro\PeoplePro\obj\Debug\PeoplePro.pdb
