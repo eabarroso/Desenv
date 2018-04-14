@@ -1,7 +1,0 @@
-C:\Projetos\TesteK2\TesteK2\obj\Debug\TesteK2.csproj.CoreCompileInputs.cache
-C:\Projetos\TesteK2\TesteK2\bin\TesteK2.dll.config
-C:\Projetos\TesteK2\TesteK2\bin\TesteK2.dll
-C:\Projetos\TesteK2\TesteK2\bin\TesteK2.pdb
-C:\Projetos\TesteK2\TesteK2\obj\Debug\TesteK2.csprojResolveAssemblyReference.cache
-C:\Projetos\TesteK2\TesteK2\obj\Debug\TesteK2.dll
-C:\Projetos\TesteK2\TesteK2\obj\Debug\TesteK2.pdb
